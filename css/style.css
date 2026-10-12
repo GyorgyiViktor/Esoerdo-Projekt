@@ -18,7 +18,9 @@ body {
 .navbarFontSize{
   font-size: larger;
 }
-
+nav{
+  background-color: black;
+}
 .hero{
   background-image: url(../img/rainforestHero.jpg);
   background-position: center center;
@@ -29,6 +31,22 @@ body {
   height: 300px;
   overflow: hidden;
 }
+
+.nav-flex {
+    display: flex;             
+    justify-content: space-between;
+    align-items: center;       
+    padding: 10px 15px;        
+    width: 100%;               
+    box-sizing: border-box;    
+}
+
+.navbar-nav li {
+    border: 1px white solid;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    display: flex;
+  }
 
 .layer{
   background-color: rgba(0, 0, 0, 0.5);
@@ -88,4 +106,28 @@ body {
 
 .footer-links a img {
   pointer-events: none;
+}
+
+main{
+  color: white;
+}
+
+.introduction{
+  background-color: rgb(0, 0, 0, 0.4);
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.dialogstyle{
+  position: absolute; 
+  top: 15px; 
+  right: 15px; 
+  left: auto; 
+  bottom: auto; 
+  height: auto; 
+  width: 280px; 
+  background-color: #000000; 
+  border: 1px solid #333; 
+  border-radius: 8px; 
+  color: #ffffff;
 }
