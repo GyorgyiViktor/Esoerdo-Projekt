@@ -5,4 +5,9 @@ body{
   font-size: 20px;
   line-height: 1.5;
   font-weight: 400;
+  background-color: rgb(122, 172, 172);
+}
+
+.navbarFontSize{
+  font-size: larger;
 }
