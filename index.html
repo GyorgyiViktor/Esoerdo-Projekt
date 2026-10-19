@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Esőerdő</title>
-    <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -76,45 +76,74 @@
         </div>
     </header>
 
-    <main class="container-fluid px-0 my-5">
-        <div class="row align-items-center g-4 g-md-5 w-100 mx-0">
+    <main class="container my-5">
 
-            <div class="col-12 col-md-8 px-4">
-                <section class="introduction">
-                    <h2>Bemutatkozás</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem magnam odit non inventore, numquam
-                        voluptatem. Magni nesciunt debitis commodi, autem, incidunt exercitationem, laborum rerum
-                        possimus magnam aliquid dolorem! Fuga fugiat corrupti nisi, eos cum rem sapiente recusandae
-                        neque reprehenderit quis.</p>
-                </section>
-            </div>
+        <section class="introduction welcome-box p-5 mb-5 text-center text-white">
+            <div class="welcome-icon display-4 mb-2">🌿</div>
+            <h2 class="mb-3 fw-bold tracking-wide">Köszöntünk az oldalon!</h2>
+            <p class="lead mx-auto" style="max-width: 800px;">
+                Ez a projekt azért jött létre, hogy bemutassa a trópusi esőerdők csodálatos világát.
+                Válaszd ki az alábbi funkciók közül, merre szeretnél továbbhaladni!
+            </p>
+        </section>
 
-            <div class="col-12 col-md-4 text-center py-3 py-md-0">
-                <img src="img/intro.jpg" alt="Esőerdő" class="img-fluid rounded mx-auto d-block"
-                    style="max-width: 500px; width: 100%;">
-            </div>
+        <section class="features-section">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
 
-        </div>
-    </main>
-
-    <main>
-        <div class="container py-5">
-            <div class="text-center mb-5">
-                <h2 class="fw-bold text-dark">Lorem</h2>
-            </div>
-
-            <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                    <div class="card h-100 border-0 shadow-sm p-4 text-center">
-                        <div class="card-body p-0">
-                            <h5 class="card-title fw-bold mb-3">Title</h5>
-                            <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Pariatur est quasi ex temporibus.</p>
+                    <a href="terkep.html" class="text-decoration-none h-100 d-block">
+                        <div class="card h-100 feature-card text-center text-white p-4">
+                            <div class="card-icon display-3 mb-3">🗺️</div>
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title h4 fw-bold mb-3">Interaktív Térkép</h3>
+                                <p class="card-text flex-grow-1">Ismerd meg az esőerdők földrajzi elhelyezkedését,
+                                    kiterjedését és a legfontosabb gócpontokat.</p>
+                                <div class="mt-auto">
+                                    <span class="btn btn-outline-light rounded-pill px-4">Megtekintés &rarr;</span>
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
+                <div class="col">
+                    <a href="kviz.html" class="text-decoration-none h-100 d-block">
+                        <div class="card h-100 feature-card text-center text-white p-4">
+                            <div class="card-icon display-3 mb-3">🧠</div>
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title h4 fw-bold mb-3">Tudásalapú Kvíz</h3>
+                                <p class="card-text flex-grow-1">Teszteld a megszerzett tudásodat egy interaktív
+                                    kérdéssor segítségével, és légy az erdők szakértője.</p>
+                                <div class="mt-auto">
+                                    <span class="btn btn-outline-light rounded-pill px-4">Kvíz indítása &rarr;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a href="tippek.html" class="text-decoration-none h-100 d-block">
+                        <div class="card h-100 feature-card text-center text-white p-4">
+                            <div class="card-icon display-3 mb-3">💡</div>
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title h4 fw-bold mb-3">Hasznos Tippek</h3>
+                                <p class="card-text flex-grow-1">Tanácsok és mindennapi praktikák, amikkel te is
+                                    hozzájárulhatsz a környezet és a fák védelméhez.</p>
+                                <div class="mt-auto">
+                                    <span class="btn btn-outline-light rounded-pill px-4">Hogyan segíthetek?
+                                        &rarr;</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
     </main>
+
 
 
     <footer class="footer">
