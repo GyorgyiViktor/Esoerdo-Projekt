@@ -139,6 +139,10 @@ main {
   transition: transform 0.3s ease;
 }
 
+
+.card-icon img{
+  width: 100px;
+}
 .col:hover .feature-card {
   transform: translateY(-8px);
   background-color: rgba(12, 12, 12, 0.75) !important;
