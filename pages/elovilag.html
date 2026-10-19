@@ -82,22 +82,65 @@
     </header>
 
     <main>
-        <section class="container">
-            <div class="">
-                <div class="animalContainer p-4 my-5 text-center">
-                    <h2>Gorilla</h2>
-                    <p>A gorilla az esőerdők egyik legnagyobb és leginkább ismert állata. Nagy testtömegük és erős izmuk
-                        teszik lehetővé, hogy erőteljesen mozogjanak a fák között.</p>
-                    <img src="../img/mountaingorilla.jpg" alt="Mountain Gorilla" class="animalPictures">
+        <section class="container animalSlider my-5 border p-0">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
                 </div>
-                <div class="animalContainer p-4 my-5 text-center">
-                    <h2>Jaguár</h2>
-                    <p>A jaguár az esőerdők egyik legnagyobb és leginkább ismert ragadozója. Nagy testtömegük és erős
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/img/jaguar.jpg" class="d-block w-100 animalImg" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Jaguár</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/capybarnia.jpg" class="d-block w-100 animalImg" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Capybara</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/mountaingorilla.jpg" class="d-block w-100 animalImg" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Mountain Gorilla</h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section class="container">
+            <div>
+                <div class="animalContainer p-4 my-5 text-center welcome-box">
+                    <h2>Capybara</h2>
+                    <p>A capybara az esőerdők egyik legnagyobb és leginkább ismert emlősök. Nagy testtömegük és erős
                         izmuk
                         teszik lehetővé, hogy hatékonyan vadászhassanak a fák között.</p>
-                    <img src="../img/jaguar.jpg" alt="Jaguar" class="animalPictures">
+                    <img src="../img/capybarnia.jpg" alt="Capybara" class="animalPictures">
                 </div>
-                <div class="animalContainer p-4 my-5 text-center">
+                <div class="animalContainer p-4 my-5 text-center welcome-box">
+                    <h2>Capybara</h2>
+                    <p>A capybara az esőerdők egyik legnagyobb és leginkább ismert emlősök. Nagy testtömegük és erős
+                        izmuk
+                        teszik lehetővé, hogy hatékonyan vadászhassanak a fák között.</p>
+                    <img src="../img/capybarnia.jpg" alt="Capybara" class="animalPictures">
+                </div>
+                <div class="animalContainer p-4 my-5 text-center welcome-box">
                     <h2>Capybara</h2>
                     <p>A capybara az esőerdők egyik legnagyobb és leginkább ismert emlősök. Nagy testtömegük és erős
                         izmuk

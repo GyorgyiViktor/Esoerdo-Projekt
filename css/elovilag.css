@@ -1,3 +1,26 @@
+.animalImg {
+    width: 750px;
+    height: 750px;
+    background-position: center center;
+    object-fit: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.animalSlider{
+  box-shadow: 0 10px 30px rgb(0, 0, 0);
+}
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.692);
+    margin-bottom: 20px;
+    border-radius: 5%;
+}
+
+.carousel-caption h5{
+    font-size: xx-large;
+}
+
 .animalPictures {
     width: 250px;
     height: 250px;
