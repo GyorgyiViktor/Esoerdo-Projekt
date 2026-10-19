@@ -108,8 +108,6 @@ document.addEventListener("DOMContentLoaded", () => {
     resultBox.classList.remove("d-none");
 
     resultScore.textContent = `${score} / ${questions.length}`;
-    resultText.textContent = "Kiváló munka! Igazi esőerdő szakértő vagy!";
-
         if (score === questions.length) {
             resultText.textContent = allCorrectText;
         } else if (score >= questions.length / 2) {
