@@ -1,8 +1,17 @@
 .animalPictures {
     width: 250px;
     height: 250px;
+    border: 1px #ffffff solid;
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    object-fit: cover;
 }
 
 .animalContainer {
     padding: 3%;
+}
+
+.animalContainer h2 {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 10px;
 }
