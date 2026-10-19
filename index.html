@@ -5,67 +5,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Esőerdő</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
 </head>
 
 <body>
     <header>
-        <nav class="navbar bg-1 fg-2 px-4" data-bs-theme="dark" >
-    <div class="container-fluid">
-        <span class="navbar-brand mb-0 h1 navbarFontSize">Esőerdő</span>
-        <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer"
-            data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon" aria-hidden="true"></span>
-        </button>
-        
-        <dialog class="drawer dialogstyle" tabindex="-1" id="navbarTogglerDemo02"
-    aria-labelledby="navbarTogglerDemo02Label">
-    
-    <div class="drawer-header border-bottom border-secondary d-flex justify-content-start align-items-center gap-3">
-        <h5 class="drawer-title text-white mb-0" id="navbarTogglerDemo02Label">Menü</h5>
-        <button type="button" class="btn-close btn-close-white m-0" data-bs-dismiss="drawer" aria-label="Close"></button>
-    </div>
-    
-    <div class="drawer-body">
-        <ul class="navbar-nav">
-            <li class="mb-2">
-                <a class="nav-link active nav-flex d-flex justify-content-between align-items-center text-white" aria-current="page" href="index.html">
-                    <span>Főoldal</span>
-                    <img width="30px" height="30px" src="img/map.png" alt="Főoldal">
-                </a>
-            </li>
-            <li class="mb-2">
-                <a class="nav-link nav-flex d-flex justify-content-between align-items-center text-white" aria-current="page"  href="pages/elovilag.html">
-                    <span>Élővilág</span>
-                    <img width="30px" height="30px" src="img/panda.png" alt="Élővilág">
-                </a>
-            </li>
-            <li>
-                <a class="nav-link nav-flex d-flex justify-content-between align-items-center text-white" aria-current="page" href="#">
-                    <span>Kvíz</span>
-                    <img width="30px" height="30px" src="img/brain.png" alt="Kvíz">
-                </a>
-            </li>
-            <li>
-                <a class="nav-link nav-flex d-flex justify-content-between align-items-center text-white" aria-current="page" href="pages/terkep.html">
-                    <span>Kvíz</span>
-                    <img width="30px" height="30px" src="img/map.png" alt="Térkép">
-                </a>
-            </li>
-            <li>
-                <a class="nav-link nav-flex d-flex justify-content-between align-items-center text-white" aria-current="page" href="pages/tippek.html">
-                    <span>Kvíz</span>
-                    <img width="30px" height="30px" src="img/map.png" alt="Tippek">
-                </a>
-            </li>
-        </ul>
-    </div>
-</dialog>
-    </div>
-</nav>
+        <nav class="navbar bg-1 fg-2 px-4" data-bs-theme="dark">
+            <div class="container-fluid">
+                <span class="navbar-brand mb-0 h1 navbarFontSize">Esőerdő projekt</span>
+                <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" aria-hidden="true"></span>
+                </button>
+                <dialog class="drawer drawer-end" tabindex="-1" id="navbarTogglerDemo02"
+                    aria-labelledby="navbarTogglerDemo02Label">
+                    <div class="drawer-header">
+                        <h5 class="drawer-title" id="navbarTogglerDemo02Label">Menü</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+                    </div>
+                    <div class="drawer-body">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link nav-flex d-flex justify-content-between align-items-center text-white"
+                                    href="index.html">
+                                    <span>Főoldal</span>
+                                    <img width="30px" height="30px" src="img/map.png" alt="Főoldal">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-flex d-flex justify-content-between align-items-center text-white"
+                                    aria-current="page" href="pages/elovilag.html">
+                                    <span>Élővilág</span>
+                                    <img width="30px" height="30px" src="img/panda.png" alt="Élővilág">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-flex d-flex justify-content-between align-items-center text-white"
+                                    aria-current="page" href="pages/kviz.html">
+                                    <span>Kvíz</span>
+                                    <img width="30px" height="30px" src="img/brain.png" alt="Kvíz">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-flex d-flex justify-content-between align-items-center text-white"
+                                    aria-current="page" href="pages/tippek.html">
+                                    <span>Tippek</span>
+                                    <img width="30px" height="30px" src="img/tips.png" alt="Tippek">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active nav-flex d-flex justify-content-between align-items-center text-white"
+                                    aria-current="page" href="pages/terkep.html">
+                                    <span>Térkép</span>
+                                    <img width="30px" height="30px" src="img/map.png" alt="Térkép">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </dialog>
+            </div>
+        </nav>
         <div class="hero">
             <div class="layer p-3">
                 <h1>Esőerdő</h1>
@@ -74,40 +76,45 @@
         </div>
     </header>
 
-<main class="container-fluid px-0 my-5">
-    <div class="row align-items-center g-4 g-md-5 w-100 mx-0"> 
-        
-        <div class="col-12 col-md-8 px-4">
-            <section class="introduction">
-                <h2>Bemutatkozás</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem magnam odit non inventore, numquam voluptatem. Magni nesciunt debitis commodi, autem, incidunt exercitationem, laborum rerum possimus magnam aliquid dolorem! Fuga fugiat corrupti nisi, eos cum rem sapiente recusandae neque reprehenderit quis.</p>
-            </section>
-        </div>
+    <main class="container-fluid px-0 my-5">
+        <div class="row align-items-center g-4 g-md-5 w-100 mx-0">
 
-        <div class="col-12 col-md-4 text-center py-3 py-md-0">
-            <img src="img/intro.jpg" alt="Esőerdő" class="img-fluid rounded mx-auto d-block" style="max-width: 500px; width: 100%;">
-        </div>
-        
-    </div>
-</main>
+            <div class="col-12 col-md-8 px-4">
+                <section class="introduction">
+                    <h2>Bemutatkozás</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem magnam odit non inventore, numquam
+                        voluptatem. Magni nesciunt debitis commodi, autem, incidunt exercitationem, laborum rerum
+                        possimus magnam aliquid dolorem! Fuga fugiat corrupti nisi, eos cum rem sapiente recusandae
+                        neque reprehenderit quis.</p>
+                </section>
+            </div>
 
-<main>
-  <div class="container py-5">
-    <div class="text-center mb-5">
-      <h2 class="fw-bold text-dark">Lorem</h2>
-    </div>
+            <div class="col-12 col-md-4 text-center py-3 py-md-0">
+                <img src="img/intro.jpg" alt="Esőerdő" class="img-fluid rounded mx-auto d-block"
+                    style="max-width: 500px; width: 100%;">
+            </div>
 
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
-        <div class="card h-100 border-0 shadow-sm p-4 text-center">
-          <div class="card-body p-0">
-            <h5 class="card-title fw-bold mb-3">Title</h5>
-            <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur est quasi ex temporibus.</p>
-          </div>
         </div>
-      </div>
-      
-</main>
+    </main>
+
+    <main>
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-dark">Lorem</h2>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 border-0 shadow-sm p-4 text-center">
+                        <div class="card-body p-0">
+                            <h5 class="card-title fw-bold mb-3">Title</h5>
+                            <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Pariatur est quasi ex temporibus.</p>
+                        </div>
+                    </div>
+                </div>
+
+    </main>
 
 
     <footer class="footer">
