@@ -39,8 +39,8 @@ nav {
   justify-content: space-between;
   align-items: center;       
   padding: 10px 15px;        
-  width: 100%;               
-  box-sizing: border-box;    
+  width: 100%;      
+  box-sizing: border-box;
 }
 
 .navbar-nav .nav-item {
