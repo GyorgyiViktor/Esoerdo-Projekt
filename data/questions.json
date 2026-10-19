@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Melyik réteg található a trópusi esőerdő legfelső részén, ahol a legmagasabb fák kimagaslanak?",
+    "options": ["Lombkoronaszint", "Cserjeszint", "Kiemelkedő (emergen) szint"],
+    "answer": 2
+  },
+  {
+    "question": "Milyen éghajlat jellemző a trópusi esőerdők területére?",
+    "options": ["Meleg és száraz", "Forró és nedves egész évben", "Mérsékelt, hideg telekkel"],
+    "answer": 1
+  },
+  {
+    "question": "A Föld ismert növény- és állatfajainak megközelítőleg mekkora része él az esőerdőkben?",
+    "options": ["Kb. 10%", "Kb. 25%", "Több mint 50%"],
+    "answer": 2
+  },
+  {
+    "question": "Mi a neve a világ második legnagyobb összefüggő trópusi esőerdőjének?",
+    "options": ["Kongói-medence esőerdője", "Valdiviai esőerdő", "Daintree esőerdő"],
+    "answer": 0
+  },
+  {
+    "question": "Melyik híres folyó folyik keresztül a világ legnagyobb esőerdőjén?",
+    "options": ["Nílus", "Amazonas", "Mississippi"],
+    "answer": 1
+  },
+  {
+    "question": "Mi az egyik fő oka a trópusi esőerdők gyors pusztulásának (erdőirtás)?",
+    "options": ["A túlzott hóesés", "Mezőgazdasági területek (pl. szójatermesztés, marhatenyésztés) kialakítása", "A turisták jelenléte"],
+    "answer": 1
+  },
+  {
+    "question": "Milyen szerepet töltenek be az esőerdők a Föld klímájának szabályozásában?",
+    "options": ["Hatalmas mennyiségű szén-dioxidot kötnek meg", "Ausztrália hőmérsékletét növelik", "Nincs hatásuk a klímára"],
+    "answer": 0
+  },
+  {
+    "question": "Melyik állat él természetes élőhelyén az amazóniai esőerdőben?",
+    "options": ["Jegesmedve", "Jaguár", "Kenguru"],
+    "answer": 1
+  },
+  {
+    "question": "Hogyan nevezzük azokat a növényeket, amelyek más fák ágain élnek anélkül, hogy elszívnák azok tápanyagait (pl. az orchideák)?",
+    "options": ["Paraziták", "Epifiták (fán lakó növények)", "Húsevő növények"],
+    "answer": 1
+  },
+  {
+    "question": "Milyen a trópusi esőerdők talajának tápanyagtartalma az intenzív esőzések miatt?",
+    "options": ["Rendkívül tápanyagban gazdag", "Relatíve tápanyagban szegény, mert a csapadék kimossa", "Mindig fagyott"],
+    "answer": 1
+  }
+]
