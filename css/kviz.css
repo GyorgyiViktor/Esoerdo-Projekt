@@ -5,6 +5,7 @@
 
 #options-container button:hover {
     transform: scale(1.02);
+    background-color: rgb(130, 173, 153);
 }
 
 #options-container button.active {
