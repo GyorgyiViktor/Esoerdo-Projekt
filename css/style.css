@@ -67,7 +67,13 @@ nav {
 }
 
 .footer {
-  background-color: rgb(0, 0, 0);
+  background-image: url(../img/rainforestFooter.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: soft-light;
   color: #ffffff;
   padding: 40px 20px;
   text-align: center;
