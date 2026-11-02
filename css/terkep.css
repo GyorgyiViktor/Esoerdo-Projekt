@@ -1,12 +1,44 @@
-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.mapFrame {
+    border: 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
 }
 
-iframe{
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    width: 75%;
-    height: 550px;
+@media (min-width: 768px) {
+    .mapRatio {
+        --bs-aspect-ratio: 56.25%;
+    }
+}
+
+.infoCard {
+    padding: 1.5rem;
+    height: 100%;
+}
+
+.infoCard h2,
+.infoCard h3 {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 10px;
+}
+
+.statNumber {
+    font-size: clamp(1.6rem, 5vw, 2.4rem);
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.statLabel {
+    font-size: 0.95rem;
+}
+
+.countryBadge {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem 0.9rem;
+}
+
+@media (max-width: 575.98px) {
+    .infoCard {
+        padding: 1rem;
+    }
 }

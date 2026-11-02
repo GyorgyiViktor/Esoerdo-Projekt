@@ -1,40 +1,53 @@
+.animalSlider {
+    box-shadow: 0 10px 30px rgb(0, 0, 0);
+    overflow: hidden;    
+}
+
 .animalImg {
-    width: 750px;
-    height: 750px;
-    background-position: center center;
+    width: 100%;
+    height: clamp(240px, 55vw, 600px);
     object-fit: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    object-position: center center;
 }
 
-.animalSlider{
-  box-shadow: 0 10px 30px rgb(0, 0, 0);
-}
-
-.carousel-caption{
-    background-color: rgba(0, 0, 0, 0.692);
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7);
     margin-bottom: 20px;
     border-radius: 5%;
+    padding: 0.25rem 0.75rem;
+    left: 10%;
+    right: 10%;
 }
 
-.carousel-caption h5{
-    font-size: xx-large;
+.carousel-caption h5 {
+    font-size: clamp(1.1rem, 4vw, 2rem);
+    margin: 0;
+}
+
+.animalContainer {
+    padding: 3%;
+    height: 100%;
+}
+
+.animalContainer h2 {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 10px;
+    font-size: clamp(1.4rem, 5vw, 2rem);
 }
 
 .animalPictures {
-    width: 250px;
-    height: 250px;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    aspect-ratio: 1 / 1;
     border: 1px #ffffff solid;
     border-radius: 5%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     object-fit: cover;
 }
 
-.animalContainer {
-    padding: 3%;
-}
-
-.animalContainer h2 {
-    border-bottom: 1px solid #ffffff;
-    padding-bottom: 10px;
+@media (max-width: 575.98px) {
+    .animalContainer {
+        padding: 1rem;
+    }
 }

@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <nav class="navbar bg-dark navbar-dark px-4" data-bs-theme="dark">
+        <nav class="navbar bg-dark navbar-dark px-3 px-md-4" data-bs-theme="dark">
             <div class="container-fluid">
                 <span class="navbar-brand mb-0 h1 navbarFontSize">Esőerdő projekt</span>
 
@@ -57,7 +57,7 @@
                                 <a class="nav-link nav-flex d-flex justify-content-between align-items-center text-white"
                                     href="./tippek.html">
                                     <span>Tippek</span>
-                                    <img width="30" height="30" src="../img/tips.png" alt="Tippek">
+                                    <img width="30" height="30" src="../img/question-mark.png" alt="Tippek">
                                 </a>
                             </li>
                             <li class="nav-item">
@@ -81,12 +81,77 @@
     </header>
 
     <main>
-        <section class="m-5 p-5">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15930.09307037204!2d-62.22618023876094!3d-3.4653051441453844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91e8605342744385%3A0x3d3c6dc1394a7fc7!2zYW1hesOzbmlhaSBlc8WRZXJkxZE!5e0!3m2!1shu!2shu!4v1791805440242!5m2!1shu!2shu"
-                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="strict-origin-when-cross-origin" class="mb-3"></iframe>
+        <!-- Térkép -->
+        <section class="container my-4 my-md-5">
+            <div class="ratio ratio-4x3 mapRatio">
+                <iframe class="mapFrame" title="Az amazóniai esőerdő térképe"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15930.09307037204!2d-62.22618023876094!3d-3.4653051441453844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91e8605342744385%3A0x3d3c6dc1394a7fc7!2zYW1hesOzbmlhaSBlc8WRZXJkxZE!5e0!3m2!1shu!2shu!4v1791805440242!5m2!1shu!2shu"
+                    allowfullscreen="" loading="lazy"
+                    referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+            <p class="text-center mt-3 mb-0">
+                Tipp: a térkép két ujjal (vagy a +/− gombokkal) nagyítható, így a folyók és a településhálózat is
+                megfigyelhető.
+            </p>
         </section>
+
+        <!-- Bevezető + főbb adatok -->
+        <section class="container mb-4 mb-md-5">
+            <div class="infoCard text-center welcome-box">
+                <h2>Az Amazonas-medence</h2>
+                <p>Az Amazonas-medence Dél-Amerika északi részén terül el, és a Föld legnagyobb összefüggő
+                    esőerdejét rejti. Az Egyenlítő közelsége miatt egész évben meleg és csapadékos az időjárás,
+                    ezért az erdő rendkívül sűrű és fajgazdag. A térképen jól látszik az Amazonas folyó és
+                    mellékfolyóinak hatalmas, ágas-bogas hálózata, amely az erdő „ütőere".</p>
+            </div>
+
+            <div class="row g-3 g-md-4 mt-1 text-center">
+                <div class="col-6 col-lg-3">
+                    <div class="infoCard welcome-box">
+                        <div class="statNumber">~5,5 millió km²</div>
+                        <div class="statLabel">az esőerdő becsült területe</div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="infoCard welcome-box">
+                        <div class="statNumber">9</div>
+                        <div class="statLabel">ország osztozik rajta</div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="infoCard welcome-box">
+                        <div class="statNumber">~6400 km</div>
+                        <div class="statLabel">az Amazonas folyó hossza (becsülve)</div>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="infoCard welcome-box">
+                        <div class="statNumber">~60%</div>
+                        <div class="statLabel">esik Brazília területére</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container mb-4 mb-md-5">
+            <div class="infoCard text-center welcome-box">
+                <h2>Mely országokban található?</h2>
+                <p>Az amazóniai esőerdő kilenc állam és terület határain nyúlik át. A legnagyobb része Brazíliában
+                    van, de jelentős területek tartoznak Peruhoz és Kolumbiához is.</p>
+                <div class="d-flex flex-wrap justify-content-center gap-2">
+                    <span class="badge text-bg-success countryBadge">Brazília</span>
+                    <span class="badge text-bg-success countryBadge">Peru</span>
+                    <span class="badge text-bg-success countryBadge">Kolumbia</span>
+                    <span class="badge text-bg-success countryBadge">Venezuela</span>
+                    <span class="badge text-bg-success countryBadge">Ecuador</span>
+                    <span class="badge text-bg-success countryBadge">Bolívia</span>
+                    <span class="badge text-bg-success countryBadge">Guyana</span>
+                    <span class="badge text-bg-success countryBadge">Suriname</span>
+                    <span class="badge text-bg-success countryBadge">Francia Guyana</span>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <footer class="footer">
@@ -98,7 +163,7 @@
                     <img width="38px" src="/img/github icon.png" alt="Github link" class="footer-icons">
                 </a>
                 <a href="https://trello.com/b/OXYyqz7w/esoerdo-projekt" target="_blank">
-                    <img width="38px" src="/img/trello icon.png" alt="Github link" class="footer-icons">
+                    <img width="38px" src="/img/trello icon.png" alt="Trello link" class="footer-icons">
                 </a>
             </div>
         </div>
