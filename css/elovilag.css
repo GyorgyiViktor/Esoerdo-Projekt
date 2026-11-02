@@ -1,6 +1,6 @@
 .animalSlider {
     box-shadow: 0 10px 30px rgb(0, 0, 0);
-    overflow: hidden;    
+    overflow: hidden;
 }
 
 .animalImg {
@@ -29,7 +29,7 @@
     height: 100%;
 }
 
-.animalContainer h2 {
+.animalContainer h3 {
     border-bottom: 1px solid #ffffff;
     padding-bottom: 10px;
     font-size: clamp(1.4rem, 5vw, 2rem);
@@ -50,4 +50,9 @@
     .animalContainer {
         padding: 1rem;
     }
+}
+
+.animalName {
+    border-bottom: 2px solid #ffffff;
+    margin-bottom: 10px;
 }
