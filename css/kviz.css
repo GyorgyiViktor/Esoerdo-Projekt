@@ -64,3 +64,11 @@
 #result-box > *:last-child {
     margin-bottom: 0;
 }
+
+.option-btn {
+    white-space: normal !important;   
+    word-break: break-word;          
+    height: auto !important;          
+    min-height: 50px;
+    text-align: center;
+}
